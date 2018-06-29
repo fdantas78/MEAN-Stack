@@ -1,0 +1,7 @@
+
+> mean-stack@0.0.1 lint /home/ubuntu/workspace/mean-stack
+> jshint *.js src/../*.js "--reporter" "checkstyle"
+
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+</checkstyle>
