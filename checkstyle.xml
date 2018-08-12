@@ -1,5 +1,5 @@
 
-> mean-stack@0.0.1 lint /home/ubuntu/workspace/mean-stack
+> yarn@0.0.1 lint /home/ec2-user/environment
 > jshint *.js src/../*.js "--reporter" "checkstyle"
 
 <?xml version="1.0" encoding="utf-8"?>

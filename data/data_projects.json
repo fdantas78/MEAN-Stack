@@ -1,0 +1,51 @@
+[
+   {
+       name: 'first project',
+       image: 'print1',
+       link: 'linktoproject1',
+       language: 'javascript'
+   },
+   {
+       name: 'second project',
+       image: 'print2',
+       link: 'linktoproject2',
+       language: 'javascript'
+   },
+   {
+       name: 'third project',
+       image: 'print3',
+       link: 'linktoproject3',
+       language: 'c++'
+   },
+      {
+       name: 'fourth project',
+       image: 'print4',
+       link: 'linktoproject4',
+       language: 'javascript'
+   },
+      {
+       name: 'fifth project',
+       image: 'print5',
+       link: 'linktoproject2',
+       language: 'phyton'
+   },
+      {
+       name: 'sixth project',
+       image: 'print6',
+       link: 'linktoproject6',
+       language: 'javascript'
+   },
+      {
+       name: 'seventh project',
+       image: 'print7',
+       link: 'linktoproject7',
+       language: 'c++'
+   },
+      {
+       name: 'eighth project',
+       image: 'print8',
+       link: 'linktoproject8',
+       language: 'vb6'
+   }
+   
+]

@@ -1,22 +1,19 @@
 var express = require('express');
 var app = express();
 var port = process.env.PORT;
+//const MongoClient = require('mongodb').MongoClient;
+//const urlDb = "mongodb://localhost:8000";
 
-// const MongoClient = require('mongodb').MongoClient;
-// const urlDb = "mongodb://localhost:8000";
-
-var portfolioRouter = require('./src/routes/portfolio');
-
-// const dbRouter = require('./src/routes/db');
+var portfolioRouter = require('./src/routes/portfolioRoutes');
+var dbRouter = require('./src/routes/dbRoutes');
 
 app.use(express.static('public'));
 app.use(express.static('node_modules'));
 
 app.set('views', './src/views');
 app.set('view engine', 'ejs');
-    
-    
-// app.use('/db', dbRouter);
+
+app.use('/db', dbRouter);
 
 // app.get('/', 
 //     function(req, res) {

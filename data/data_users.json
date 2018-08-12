@@ -1,0 +1,26 @@
+[
+   {
+       userType: 1,
+       firstName: 'Fernando',
+       lastName: 'Dantas',
+       email: 'fernando@gmail.com',
+       password: "123",
+       socialMedia: 'linkedin'
+   },
+   {
+       userType: 1,
+       firstName: 'Adriana',
+       lastName: 'Dantas',
+       email: 'adriana@gmail.com',
+       password: "123",
+       socialMedia: 'instagram'
+   },
+   {
+       userType: 2,
+       firstName: 'John',
+       lastName: 'Doe',
+       email: 'john@gmail.com',
+       password: "123",
+       socialMedia: 'twitter'
+   }
+]
